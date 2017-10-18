@@ -1,6 +1,6 @@
 这是一套适合显示中文文章的CSS，适合直接使用markdown写文章的项目。
 
-样式参考主页。
+[主页](https://xugy0926.github.io/chinese-markdown-css/)
 
 ## 使用
 
