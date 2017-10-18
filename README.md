@@ -7,7 +7,7 @@
 首先在head中引用chinese-article.css
 
 ```
-<link rel="stylesheet" href="../src/static/css/chinese-article.css"/> 
+<link rel="stylesheet" href="./public/css/chinese-article.css"/> 
 ```
 
 之后需要在文章的最外层div标签引入Class
@@ -21,8 +21,8 @@
 如果要显示代码样式，引入下列样式
 
 ```
-<link rel="stylesheet" href="../src/static/css/github-gist.css"/>
-<script href="../src/static/js/highlight.pack.js"/>
+<link rel="stylesheet" href="./public/css/github-gist.css"/>
+<script href="./public/js/highlight.pack.js"/>
 <script>hljs.initHighlightingOnLoad();<script>
 ```
 
