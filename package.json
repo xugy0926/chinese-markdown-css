@@ -4,6 +4,7 @@
   "description": "适合显示中文的CSS",
   "author": "XuGaoYang",
   "license": "MIT",
+  "homepage": "https://xugy0926.github.io/chinese-markdown-css/",
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
