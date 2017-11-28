@@ -28,6 +28,8 @@
 
 ## 编译方式
 
+如果你想fork并自定义项目，需要重新编译并生成新的 chinese-article.css 文件。
+
 确保全局安装了gulp
 ```
 $ npm install -g gulp
