@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>chinese article Demo</title>
+    <link rel="stylesheet" href="./md.css" />
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-8">
+                <article class="chinese-article">
+                    <p>Author:
+                        <a href="https://github.com/xugy0926">XuGaoYang</a>
+                    </p>
+                    <h1>使用说明与示例</h1>
+                    <p>这是一套适合显示中文文章的CSS，适合直接使用
+                        <a href="http://www.appinn.com/markdown/basic.html">markdown</a>写文章的项目。</p>
+                    <h2>使用说明</h2>
+                    <p>首先在head中引用
+                        <code>chinese-article.css</code>。</p>
+                    <pre><code>&lt;link rel="stylesheet" href="./public/css/chinese-article.css"/&gt; </code></pre>
+                    <p>之后需要在文章的最外层div标签引入class</p>
+                    <pre><code>&lt;div class="chinese-article"&gt;
+  //文章内容
+&lt;/div&gt;</code></pre>
+                    <p>如果要显示代码样式，引入下列样式</p>
+                    <pre><code>&lt;link rel="stylesheet" href="./public/css/github-gist.css"/&gt;
+&lt;script src="./public/js/highlight.pack.js"&gt&lt;/script&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;script&gt;</code></pre>
+                    <h2>样式一览</h2>
+                    <h3>标题</h3>
+                    <h4>这是h4</h4>
+                    <h5>这是h5</h5>
+                    <h6>这是h6</h6>
+                    <h3>链接</h3>
+                    <a href="#">这是a链接</a>
+                    <h3>字体</h3>
+                    <em>这是斜体</em>
+                    <strong>这是粗体</strong>
+                    <em>
+                        <strong>这是斜的粗体</strong>
+                    </em>
+                    <h3>图片</h3>
+                    <img src="./public/images/image.png" />
+                    <h3>列表</h3>
+                    <ul>
+                        <li>列表1列表1列表1</li>
+                        <li>列表2列表2</li>
+                        <li>列表3</li>
+                    </ul>
+                    <ol>
+                        <li>列表1列表1列表1</li>
+                        <li>列表2列表2</li>
+                        <li>列表3</li>
+                    </ol>
+                    <h3>引用</h3>
+                    <blockquote>
+                        <p>当您在使用gulp构建您的项目时，您只需要 require Browsersync 模块, 利用API 并进行 选项配置。 以下在 Bootstrap 2 中，我们对框架中的某些关键部分增加了对移动设备友好的样式。而在
+                            Bootstrap 3 中，我们重写了整个框架，使其一开始就是对移动设备友好的。这次不是简单的增加一些可选的针对移动设备的样式，而是直接融合进了框架的内核中。也就是说，Bootstrap
+                            是移动设备优先的。针对移动设备的样式融合进了框架的每个角落，而不是增加一个额外的文件。</p>
+                    </blockquote>
+                    <h3>表格</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="text-align:left">First Name</th>
+                                <th style="text-align:center">Last Name</th>
+                                <th style="text-align:right">Username</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mark</td>
+                                <td style="text-align:center">Otto</td>
+                                <td style="text-align:right">@mdl</td>
+                            </tr>
+                            <tr>
+                                <td>Jacob</td>
+                                <td style="text-align:center">Thornton</td>
+                                <td style="text-align:right">@fat</td>
+                            </tr>
+                            <tr>
+                                <td>Larry</td>
+                                <td style="text-align:center">the Bird</td>
+                                <td style="text-align:right">@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h3> 分割线</h3>
+                    <hr/>
+                    <h3>代码</h3>
+                    <pre class="hljs"><code>var x = 1;
+var y = 2;
+var z = x + y;
+</code></pre>
+                    <p>Author:
+                        <a href="https://github.com/xugy0926">XuGaoYang</a>
+                    </p>
+                </article>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
