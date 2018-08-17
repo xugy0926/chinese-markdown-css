@@ -40,3 +40,7 @@ $ npm install -g gulp
 $ npm isntall
 $ gulp
 ```
+
+## 公众号模板
+
+https://github.com/xugy0926/chinese-markdown-css/tree/master/markdown-here-css
